@@ -17,6 +17,29 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        Thread.sleep(forTimeInterval: 3)
+        
+        let invite: String? = UserDefaults.standard.string(forKey: "INVITE_CODE")
+
+        
+        if (invite != nil)
+        {
+            myInviteCode = invite!
+            //navigate to Protected page
+            let mainStoryBoard:UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+            
+            let mainPage:ViewController = mainStoryBoard.instantiateViewController(withIdentifier: "mainScreen") as! ViewController
+            
+            let mainPageNav = UINavigationController(rootViewController: mainPage)
+            
+            let appDelegate: AppDelegate = UIApplication.shared.delegate as! AppDelegate
+            
+            appDelegate.window?.rootViewController = mainPageNav
+            
+            
+        }
+        
         return true
     }
 

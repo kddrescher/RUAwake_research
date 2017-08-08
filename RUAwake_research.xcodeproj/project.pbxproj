@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2041515A0C7F13F51287A1D4 /* Pods_RUAwake_researchTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21BD2A6388A06939C7D7C169 /* Pods_RUAwake_researchTests.framework */; };
+		BE4354DFF9D00C57B6B40B13 /* Pods_RUAwake_researchUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 185D72B8D519F56ED5DC3EDB /* Pods_RUAwake_researchUITests.framework */; };
 		CE0FEEE11F33FC4300B8841B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0FEEE01F33FC4300B8841B /* AppDelegate.swift */; };
 		CE0FEEE31F33FC4300B8841B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0FEEE21F33FC4300B8841B /* ViewController.swift */; };
 		CE0FEEE61F33FC4300B8841B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE0FEEE41F33FC4300B8841B /* Main.storyboard */; };
@@ -15,6 +17,13 @@
 		CE0FEEEE1F33FC4300B8841B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE0FEEEC1F33FC4300B8841B /* LaunchScreen.storyboard */; };
 		CE0FEEF91F33FC4300B8841B /* RUAwake_researchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0FEEF81F33FC4300B8841B /* RUAwake_researchTests.swift */; };
 		CE0FEF041F33FC4300B8841B /* RUAwake_researchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0FEF031F33FC4300B8841B /* RUAwake_researchUITests.swift */; };
+		CE0FEF161F34038600B8841B /* tou.html in Resources */ = {isa = PBXBuildFile; fileRef = CE0FEF151F34038600B8841B /* tou.html */; };
+		CE0FEF1A1F34BE4B00B8841B /* InviteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0FEF191F34BE4B00B8841B /* InviteViewController.swift */; };
+		CE0FEF241F3505E300B8841B /* ResetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0FEF231F3505E300B8841B /* ResetViewController.swift */; };
+		CECFEA4B1F3512E900AF8B46 /* ScoresTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECFEA4A1F3512E900AF8B46 /* ScoresTableViewController.swift */; };
+		CECFEA4D1F35141100AF8B46 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECFEA4C1F35141100AF8B46 /* CustomCell.swift */; };
+		CEF8BAF81F362CF000615E1B /* NewChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF8BAF71F362CF000615E1B /* NewChartViewController.swift */; };
+		E489BF893BC7B8F9A6AD85CD /* Pods_RUAwake_research.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADD54DBE9953D04F7CF45667 /* Pods_RUAwake_research.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		185D72B8D519F56ED5DC3EDB /* Pods_RUAwake_researchUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RUAwake_researchUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		21BD2A6388A06939C7D7C169 /* Pods_RUAwake_researchTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RUAwake_researchTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		228E45DEE79A8A3F97A728FF /* Pods-RUAwake_researchUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RUAwake_researchUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RUAwake_researchUITests/Pods-RUAwake_researchUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6D07896B9CEB284B1B588A85 /* Pods-RUAwake_research.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RUAwake_research.release.xcconfig"; path = "Pods/Target Support Files/Pods-RUAwake_research/Pods-RUAwake_research.release.xcconfig"; sourceTree = "<group>"; };
+		7B983549B23E1E17F1DA4EEA /* Pods-RUAwake_research.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RUAwake_research.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RUAwake_research/Pods-RUAwake_research.debug.xcconfig"; sourceTree = "<group>"; };
+		A919E84732D449BD8B24699F /* Pods-RUAwake_researchUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RUAwake_researchUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RUAwake_researchUITests/Pods-RUAwake_researchUITests.release.xcconfig"; sourceTree = "<group>"; };
+		ADD54DBE9953D04F7CF45667 /* Pods_RUAwake_research.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RUAwake_research.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF667DB5CC2A82C9A8375D74 /* Pods-RUAwake_researchTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RUAwake_researchTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RUAwake_researchTests/Pods-RUAwake_researchTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CE0FEEDD1F33FC4300B8841B /* RUAwake_research.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RUAwake_research.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE0FEEE01F33FC4300B8841B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE0FEEE21F33FC4300B8841B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +66,13 @@
 		CE0FEEFF1F33FC4300B8841B /* RUAwake_researchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RUAwake_researchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE0FEF031F33FC4300B8841B /* RUAwake_researchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RUAwake_researchUITests.swift; sourceTree = "<group>"; };
 		CE0FEF051F33FC4300B8841B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE0FEF151F34038600B8841B /* tou.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = tou.html; sourceTree = "<group>"; };
+		CE0FEF191F34BE4B00B8841B /* InviteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InviteViewController.swift; sourceTree = "<group>"; };
+		CE0FEF231F3505E300B8841B /* ResetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetViewController.swift; sourceTree = "<group>"; };
+		CECFEA4A1F3512E900AF8B46 /* ScoresTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoresTableViewController.swift; sourceTree = "<group>"; };
+		CECFEA4C1F35141100AF8B46 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		CEF8BAF71F362CF000615E1B /* NewChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewChartViewController.swift; sourceTree = "<group>"; };
+		EC28A1C9FB16B336EFE7963E /* Pods-RUAwake_researchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RUAwake_researchTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RUAwake_researchTests/Pods-RUAwake_researchTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E489BF893BC7B8F9A6AD85CD /* Pods_RUAwake_research.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2041515A0C7F13F51287A1D4 /* Pods_RUAwake_researchTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +96,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE4354DFF9D00C57B6B40B13 /* Pods_RUAwake_researchUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7A2846F467412FD456171EF1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ADD54DBE9953D04F7CF45667 /* Pods_RUAwake_research.framework */,
+				21BD2A6388A06939C7D7C169 /* Pods_RUAwake_researchTests.framework */,
+				185D72B8D519F56ED5DC3EDB /* Pods_RUAwake_researchUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84848B8DE6F00E52583FC44A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7B983549B23E1E17F1DA4EEA /* Pods-RUAwake_research.debug.xcconfig */,
+				6D07896B9CEB284B1B588A85 /* Pods-RUAwake_research.release.xcconfig */,
+				AF667DB5CC2A82C9A8375D74 /* Pods-RUAwake_researchTests.debug.xcconfig */,
+				EC28A1C9FB16B336EFE7963E /* Pods-RUAwake_researchTests.release.xcconfig */,
+				228E45DEE79A8A3F97A728FF /* Pods-RUAwake_researchUITests.debug.xcconfig */,
+				A919E84732D449BD8B24699F /* Pods-RUAwake_researchUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		CE0FEED41F33FC4300B8841B = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +133,8 @@
 				CE0FEEF71F33FC4300B8841B /* RUAwake_researchTests */,
 				CE0FEF021F33FC4300B8841B /* RUAwake_researchUITests */,
 				CE0FEEDE1F33FC4300B8841B /* Products */,
+				84848B8DE6F00E52583FC44A /* Pods */,
+				7A2846F467412FD456171EF1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,11 +152,17 @@
 			isa = PBXGroup;
 			children = (
 				CE0FEEE01F33FC4300B8841B /* AppDelegate.swift */,
+				CE0FEF191F34BE4B00B8841B /* InviteViewController.swift */,
+				CE0FEF231F3505E300B8841B /* ResetViewController.swift */,
 				CE0FEEE21F33FC4300B8841B /* ViewController.swift */,
+				CECFEA4C1F35141100AF8B46 /* CustomCell.swift */,
+				CECFEA4A1F3512E900AF8B46 /* ScoresTableViewController.swift */,
+				CEF8BAF71F362CF000615E1B /* NewChartViewController.swift */,
 				CE0FEEE41F33FC4300B8841B /* Main.storyboard */,
 				CE0FEEEA1F33FC4300B8841B /* Assets.xcassets */,
 				CE0FEEEC1F33FC4300B8841B /* LaunchScreen.storyboard */,
 				CE0FEEEF1F33FC4300B8841B /* Info.plist */,
+				CE0FEF151F34038600B8841B /* tou.html */,
 				CE0FEEE71F33FC4300B8841B /* RUAwake_research.xcdatamodeld */,
 			);
 			path = RUAwake_research;
@@ -135,9 +193,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE0FEF081F33FC4300B8841B /* Build configuration list for PBXNativeTarget "RUAwake_research" */;
 			buildPhases = (
+				DB62F2467578B0269B8240D1 /* [CP] Check Pods Manifest.lock */,
 				CE0FEED91F33FC4300B8841B /* Sources */,
 				CE0FEEDA1F33FC4300B8841B /* Frameworks */,
 				CE0FEEDB1F33FC4300B8841B /* Resources */,
+				25797C17985A2CB0A232A7DF /* [CP] Embed Pods Frameworks */,
+				5BAE494BFBEDEDE8541A31AA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE0FEF0B1F33FC4300B8841B /* Build configuration list for PBXNativeTarget "RUAwake_researchTests" */;
 			buildPhases = (
+				6D99447801E7C52301CCA253 /* [CP] Check Pods Manifest.lock */,
 				CE0FEEF01F33FC4300B8841B /* Sources */,
 				CE0FEEF11F33FC4300B8841B /* Frameworks */,
 				CE0FEEF21F33FC4300B8841B /* Resources */,
+				50B69FC2427D90DB552687E4 /* [CP] Embed Pods Frameworks */,
+				CD676B51B364CDD4999F76D2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +234,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE0FEF0E1F33FC4300B8841B /* Build configuration list for PBXNativeTarget "RUAwake_researchUITests" */;
 			buildPhases = (
+				A3F9EAEFC9F94943FAB48FB3 /* [CP] Check Pods Manifest.lock */,
 				CE0FEEFB1F33FC4300B8841B /* Sources */,
 				CE0FEEFC1F33FC4300B8841B /* Frameworks */,
 				CE0FEEFD1F33FC4300B8841B /* Resources */,
+				BA90796F8F355E6759C0F44F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,6 +262,7 @@
 				TargetAttributes = {
 					CE0FEEDC1F33FC4300B8841B = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 5472PT789U;
 						ProvisioningStyle = Automatic;
 					};
 					CE0FEEF31F33FC4300B8841B = {
@@ -238,6 +305,7 @@
 				CE0FEEEE1F33FC4300B8841B /* LaunchScreen.storyboard in Resources */,
 				CE0FEEEB1F33FC4300B8841B /* Assets.xcassets in Resources */,
 				CE0FEEE61F33FC4300B8841B /* Main.storyboard in Resources */,
+				CE0FEF161F34038600B8841B /* tou.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,14 +325,142 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		25797C17985A2CB0A232A7DF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RUAwake_research/Pods-RUAwake_research-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50B69FC2427D90DB552687E4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RUAwake_researchTests/Pods-RUAwake_researchTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5BAE494BFBEDEDE8541A31AA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RUAwake_research/Pods-RUAwake_research-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D99447801E7C52301CCA253 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A3F9EAEFC9F94943FAB48FB3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BA90796F8F355E6759C0F44F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RUAwake_researchUITests/Pods-RUAwake_researchUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD676B51B364CDD4999F76D2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RUAwake_researchTests/Pods-RUAwake_researchTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB62F2467578B0269B8240D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CE0FEED91F33FC4300B8841B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				CE0FEEE91F33FC4300B8841B /* RUAwake_research.xcdatamodeld in Sources */,
+				CECFEA4B1F3512E900AF8B46 /* ScoresTableViewController.swift in Sources */,
+				CEF8BAF81F362CF000615E1B /* NewChartViewController.swift in Sources */,
 				CE0FEEE31F33FC4300B8841B /* ViewController.swift in Sources */,
 				CE0FEEE11F33FC4300B8841B /* AppDelegate.swift in Sources */,
+				CE0FEF241F3505E300B8841B /* ResetViewController.swift in Sources */,
+				CECFEA4D1F35141100AF8B46 /* CustomCell.swift in Sources */,
+				CE0FEF1A1F34BE4B00B8841B /* InviteViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,9 +612,13 @@
 		};
 		CE0FEF091F33FC4300B8841B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B983549B23E1E17F1DA4EEA /* Pods-RUAwake_research.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5472PT789U;
 				INFOPLIST_FILE = RUAwake_research/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kent-drescher.RUAwake-research";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -428,9 +628,13 @@
 		};
 		CE0FEF0A1F33FC4300B8841B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D07896B9CEB284B1B588A85 /* Pods-RUAwake_research.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5472PT789U;
 				INFOPLIST_FILE = RUAwake_research/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kent-drescher.RUAwake-research";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -440,6 +644,7 @@
 		};
 		CE0FEF0C1F33FC4300B8841B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF667DB5CC2A82C9A8375D74 /* Pods-RUAwake_researchTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,6 +659,7 @@
 		};
 		CE0FEF0D1F33FC4300B8841B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC28A1C9FB16B336EFE7963E /* Pods-RUAwake_researchTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -468,6 +674,7 @@
 		};
 		CE0FEF0F1F33FC4300B8841B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 228E45DEE79A8A3F97A728FF /* Pods-RUAwake_researchUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = RUAwake_researchUITests/Info.plist;
@@ -481,6 +688,7 @@
 		};
 		CE0FEF101F33FC4300B8841B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A919E84732D449BD8B24699F /* Pods-RUAwake_researchUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = RUAwake_researchUITests/Info.plist;
@@ -511,6 +719,7 @@
 				CE0FEF0A1F33FC4300B8841B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE0FEF0B1F33FC4300B8841B /* Build configuration list for PBXNativeTarget "RUAwake_researchTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +728,7 @@
 				CE0FEF0D1F33FC4300B8841B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE0FEF0E1F33FC4300B8841B /* Build configuration list for PBXNativeTarget "RUAwake_researchUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +737,7 @@
 				CE0FEF101F33FC4300B8841B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
