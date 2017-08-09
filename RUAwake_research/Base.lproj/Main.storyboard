@@ -13,7 +13,7 @@
         <!--Navigation Controller-->
         <scene sceneID="ToB-Bh-a82">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="dD7-sJ-rxd" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="toResetScreen" automaticallyAdjustsScrollViewInsets="NO" id="dD7-sJ-rxd" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="wdz-Ba-ITs">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -140,7 +140,7 @@
         <!--Navigation Controller-->
         <scene sceneID="yCG-xX-XGy">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="qC9-Ic-whq" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="toMainView" automaticallyAdjustsScrollViewInsets="NO" id="qC9-Ic-whq" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="7Ll-Da-pUp">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -187,8 +187,8 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eZd-ws-qhY">
-                                <rect key="frame" x="20" y="338" width="335" height="47"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eZd-ws-qhY">
+                                <rect key="frame" x="20" y="338" width="335" height="30"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="nBV-fT-YnG"/>
@@ -391,7 +391,7 @@
         <!--Navigation Controller-->
         <scene sceneID="Z88-Np-YSY">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="4uQ-Uy-f1w" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="toScoreTable" automaticallyAdjustsScrollViewInsets="NO" id="4uQ-Uy-f1w" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="O3g-7v-XfY">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
